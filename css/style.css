@@ -1,0 +1,27 @@
+
+/* Initial state of bubble so it's hidden */
+/* properties common to all bubbles drawn 
+    - bubble specific properties passed in as params when creating bubble Object - index.html */
+
+.bubble {
+    position: absolute;
+    height: 0px;
+    width: 0px;
+    z-index: 1;
+    text-align: center;
+    line-height: 0px;
+    border-radius: 0px;
+    /* border: 0px solid green*/
+    border-width: 0px;
+    box-sizing: border-box;
+    font-size: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    opacity: 0;
+    /* found that could just say 'all' in transition rather than detailing each property targeted */
+    transition: all 0.5s ease;    
+    /*transition: height 0.5s ease, width 0.5s ease, line-height 0.5s ease, border-radius 0.5s ease, border-width 0.5s ease, font-size 0.5s ease, opacity 0.5s ease;*/
+}
+
+
+
